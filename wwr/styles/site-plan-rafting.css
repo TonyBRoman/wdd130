@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -7,18 +8,18 @@ body {
 }
 
 :root {
-    --primary-color: #FAFAFF;
-    --secondary-color: #273469;
-    --accent1-color: #30343F;
-    --accent2-color: #1E2749;
+    --primary-color: #1E2749;
+    --secondary-color: #30343F;
+    --accent1-color: #E4D9FF;
+    --accent2-color: #FAFAFF;
 
     --heading-font: 'Besley', serif;
-    --paragraph-font: 'Besley',serif;
+    --paragraph-font: 'Montserrat',serif;
 
-    --nav-background-color: #FAFAFF;
-    --nav-link-color: #30343F;
+    --nav-background-color: #30343F;
+    --nav-link-color: #FAFAFF;
     --nav-hover-link-color: #1E2749;
-    --nav-hover-background-color: #273469;
+    --nav-hover-background-color: #E4D9FF;
 }
 
 body {
