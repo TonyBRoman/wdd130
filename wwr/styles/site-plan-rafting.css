@@ -14,7 +14,7 @@ body {
     --accent2-color: #FAFAFF;
 
     --heading-font: 'Besley', serif;
-    --paragraph-font: 'Montserrat',serif;
+    --paragraph-font: 'Montserrat', sans-serif;
 
     --nav-background-color: #30343F;
     --nav-link-color: #FAFAFF;
@@ -22,11 +22,6 @@ body {
     --nav-hover-background-color: #E4D9FF;
 }
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
