@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #1E2749;
+    --secondary-color: #30343F;
+    --accent1-color: #E4D9FF;
+    --accent2-color: #FAFAFF;
+    --text-color: #343a40;
+}
+
+h1, h2, h3 {
+    font-family: 'Besley', serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+h2 { 
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+h3 { 
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--accent1-color);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--accent2-color);
+}
+
+.social-media-link {
+    text-decoration: none;
+}
+.container{ 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    max-width: 100%;
+}
+
+.hero img  {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+
+.hero article {
+    position: absolute;
+    top: 40%; 
+    left: 0;
+    right: 0;
+    width: 80%; 
+    margin: 0 auto; 
+    border: 1px solid rgba(110, 104, 104, 0.281);
+    padding: 1rem;
+    background-color: #e4d9ffa4;
+}
+
+
+.hero article img {
+    float: right;
+    margin-left: 10px;
+}
+
+/* This aviod the images from being one after the other and allows them lo be below the other. */
+.images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-container img {
+    margin: 10px;
+}
+
