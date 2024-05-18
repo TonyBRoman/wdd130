@@ -9,13 +9,15 @@
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
-        <header>
-            <img src="images/logo.png" alt="Rafting Site Logo" width="100">
-            <nav>
-                <a href="index.html"></a>
-                <a href="about.html"></a>
-                <a href="trips.html"></a>
-                <a href="contact.html"></a>
+        <header class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="Rafting Site Logo" width="100">
+            </div>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
             </nav>
         </header>
         <main>
@@ -37,36 +39,58 @@
                     </p>
                 </article>
             </div>
-                <section>
+                <section class="history-container">
                     <h2>History</h2>
+                    <div class="history">
+                        <img src="images/history.jpg" alt="History" width="250">
+                    </div>
                     <p>Founded in 2005 by passionate outdoorsmen, Splash Rapids Adventures started small but quickly became 
                         known for its thrilling rafting excursions. Through dedication to safety and the environment, we've grown 
                         into a premier rafting company, offering unforgettable adventures on rivers across the region. Join us 
-                        and experience the rush of Splash Rapids Adventures!</p>
+                        and experience the rush of Splash Rapids Adventures!
+                    </p>
                 </section>
                 <section class="images-container">  <!-- /*This will help me to edit the images in this section.*/ -->
                     <h2>Adventure Awaits You!</h2>
-                    <img src="images/rafting1.jpg" alt="Amazing Language" width="600">
-                    <img src="images/rafting2.jpg" alt="Great Challenges" width="600">
-                    <img src="images/rafting3.jpg" alt="Calm River" width="600">
-                    <img src="images/rafting4.jpg" alt="Everyone gets wet" width="600">
-                    <img src="images/rafting5.jpg" alt="Fun for the entire team" width="600">
+                    <div class="images-row">
+                        <figure>
+                            <img src="images/rafting1.jpg" alt="Amazing Landscape">
+                            <figcaption>Amazing Landscape</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/rafting2.jpg" alt="Great Challenges">
+                            <figcaption>Grat Challenges</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/rafting3.jpg" alt="Calm River">
+                            <figcaption>Calm River</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/rafting4.jpg" alt="Everyone gets wet">
+                            <figcaption>Everyone gets wet</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/rafting5.jpg" alt="Fun for the entire team">
+                            <figcaption>Fun for the entire team</figcaption>
+                        </figure>
+                    </div>
                 </section>
         </main>
         <footer>
-            <p>©2024 🚣🏽 Rafting Site Document 🚣🏽‍♂️ Tony Barron Roman 🚣🏽 WDD 130</p>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="Facebook" width="30">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.png" alt="Twitter" width="25">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.png" alt="Instagram" width="30">
-                </a>
-            </nav>
-
+            <div class="footer-content">
+                <p class="footer-text">©2024 🚣🏽 Rafting Site Document 🚣🏽‍♂️ Tony Barron Roman 🚣🏽 WDD 130</p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.png" alt="Facebook" width="30">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.png" alt="Twitter" width="25">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.png" alt="Instagram" width="30">
+                    </a>
+                </nav>
+            </div>
         </footer>
     </body>
 </html>

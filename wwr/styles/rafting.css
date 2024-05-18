@@ -16,16 +16,16 @@ h1, h2, h3 {
 h1 {
     font-size: 2em;
     font-weight: bold;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-h2 { 
+h2 {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--secondary-color);
 }
 
-h3 { 
+h3 {
     font-size: 1.2em;
     font-weight: bold;
     color: var(--accent1-color);
@@ -40,12 +40,10 @@ p {
 
 a {
     color: var(--accent2-color);
-}
-
-.social-media-link {
     text-decoration: none;
 }
-.container{ 
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -55,12 +53,11 @@ a {
     max-width: 100%;
 }
 
-.hero img  {
+.hero img {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
-    
 }
 
 .hero h1 {
@@ -72,32 +69,155 @@ a {
     text-align: center;
 }
 
-
 .hero article {
     position: absolute;
-    top: 40%; 
+    top: 40%;
     left: 0;
     right: 0;
-    width: 80%; 
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
     border: 1px solid rgba(110, 104, 104, 0.281);
     padding: 1rem;
     background-color: #e4d9ffa4;
 }
-
 
 .hero article img {
     float: right;
     margin-left: 10px;
 }
 
-/* This aviod the images from being one after the other and allows them lo be below the other. */
+
 .images-container {
+    display: grid;
+    grid-template-rows: auto 1fr; 
+    gap: 1em;
+    max-width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.images-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: center; 
+    overflow-x: auto; 
+    margin: 0 -0.5em; 
 }
 
-.images-container img {
-    margin: 10px;
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+    padding: 5px;
+    max-width: 220px; 
+    margin: 0.5em; 
 }
 
+figure img {
+    max-width: 100%; 
+    height: auto; 
+    flex-shrink: 0; 
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    padding: .5% 20%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: var(--accent1-color);
+    margin-bottom: 10px;
+}
+
+.logo {
+    grid-column: 1;
+    margin-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    padding: 10px;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    padding: 1rem;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+nav a:hover {
+    color: var(--accent2-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section { 
+    text-align: center;
+    margin-top: 50px;
+}
+
+section h2 { 
+    font-size: 2rem;
+    margin: 20px;
+}
+
+
+.history-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    gap: 20px;
+}
+
+.footer-text {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sociallinks a {
+    margin-left: 5px;
+}
+
+.sociallinks img {
+    vertical-align: middle;
+}
