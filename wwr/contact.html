@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact - Rafting Adventure</title>
+        <meta name="description" content="Contact us for more information about the services we offer and to set a date.">
+        <meta name="author" content="Tony Barron Roman">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="Rafting Site Logo" width="100">
+            </div>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-info">
+                <h1>Contact Us</h1>
+                <p>Let's start your adventure together! Contact us today to find out more about 
+                our exciting rafting trips and how we can make your experience unforgettable.</p>
+                <div class="contact-details">
+                    <div class="contact-text">
+                        <p><strong>Address:</strong> 123 River Rapids Road, Adventure Town, WA 98001</p>
+                        <p><strong>Phone:</strong> (555) 123-4567</p>
+                        <p><strong>Email:</strong> info@splashrapids.com</p>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30369.557435055463!2d26.12242453267594!3d-17.923071567935644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1716751110366!5m2!1sen!2smx" 
+                        width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="employee-profiles">
+                <h2>Meet Our Team</h2>
+                <div class="employee-info">
+                    <div class="employee">
+                        <figure>
+                            <img src="images/employee1.jpg" alt="John Doe" width="200">
+                            <figcaption>John Doe - Rafting Guide</figcaption>
+                        </figure>
+                    </div>
+                    <div class="employee">
+                        <figure>
+                            <img src="images/employee2.jpg" alt="Jane Smith" width="200">
+                            <figcaption>Jane Smith - Safety Coordinator</figcaption>
+                        </figure>
+                    </div>
+                    <div class="employee">
+                        <figure>
+                            <img src="images/employee3.jpg" alt="Emily Johnson" width="200">
+                            <figcaption>Emily Johnson - Customer Service</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <p>Send us a message and we'll respond within 24 hours. </p>
+                <form action="submit_contact.php" method="post">
+                    <div class="form-group1">
+                        <div class="name-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="email-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="purpose">
+                            <label>Purpose of Message:</label>
+                        </div>
+                        <div class="radio-container">
+                            <div>
+                                <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                                <label for="general-inquiry">General Inquiry</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="reservation-question" name="purpose" value="Reservation Question" required>
+                                <label for="reservation-question">Reservation Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion" required>
+                                <label for="website-suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group2">
+                        <div class="message-class">
+                            <label for="message">Message:</label>
+                        </div>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox-custom">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-button">Submit</button>                        
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p class="footer-text">©2024 🚣🏽 Rafting Site Document 🚣🏽‍♂️ Tony Barron Roman 🚣🏽 WDD 130</p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.png" alt="Facebook" width="30">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.png" alt="Twitter" width="25">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.png" alt="Instagram" width="30">
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
