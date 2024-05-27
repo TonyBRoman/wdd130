@@ -404,12 +404,14 @@ textarea {
     transition: background-color 0.3s; 
   }
   
-  .submit-button:hover {
+.submit-button:hover {
     background-color: #45a049; 
     transform: scale(1.1);
   }
   
-  .submit-button:active {
+.submit-button:active {
     transform: translateY(4px); 
   }
-  
+.wireframe p { 
+    color: black;
+}
