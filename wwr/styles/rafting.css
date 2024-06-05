@@ -3,12 +3,16 @@
 
 :root {
     --primary-color: #721817;  
-    --secondary-color: #0B6E4F;  /* 721817 */
+    --secondary-color: #0B6E4F;  
     --accent1-color: #2B4162;  
     --accent2-color: #E0E0E2;  
-    --text-color: #FA9F42;  /* FA9F42 */
+    --text-color: #FA9F42;  
 
 }
+
+/* New fonts have been added, and the color palette has also been modified */
+/* palette link: 
+https://coolors.co/721817-0b6e4f-2b4162-e0e0e2-fa9f42  */
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
